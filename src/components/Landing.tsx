@@ -114,12 +114,6 @@ export function Landing({ onGetStarted, onLearnMore, onShowProfile, onSettingPro
               <Button size="lg" variant="outline" onClick={onLearnMore}>
                 Learn More
               </Button>
-              <Button size="lg" variant="ghost" onClick={onShowProfile}>
-                Show Profile
-              </Button>
-              <Button size="lg" variant="ghost" onClick={onSettingProfile}>
-                Profile Settings
-              </Button>
             </motion.div>
           </motion.div>
 
